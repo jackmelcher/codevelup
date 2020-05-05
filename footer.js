@@ -10,21 +10,9 @@ div.appendChild(a1);
 a2.href = "suggestion.html";
 a2.innerHTML = "Make a Suggestion";
 div.appendChild(a2);
-var br = document.createElement("br")
+var br = document.createElement("br");
 div.appendChild(br);
-a3.innerHTML = "© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.";
+a3.innerHTML =
+  "© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.";
 div.appendChild(a3);
 document.body.appendChild(div);
-
-checkHeight();
-window.addEventListener('resize', checkHeight());
-window.addEventListener('onload', checkHeight());
-window.addEventListener('onpageshow', checkHeight());
-
-function checkHeight(){
-    //console.log(document.body.scrollHeight+" scroll v body "+window.innerHeight);
-    if(document.body.scrollHeight > window.innerHeight){
-        div.style.position = "relative";
-    }
-    else{div.style.position = "absolute";}
-}
