@@ -15,4 +15,4 @@ div.appendChild(br);
 a3.innerHTML =
   "© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.";
 div.appendChild(a3);
-document.body.appendChild(div);
+document.querySelector(".sectionlimited").appendChild(div);
