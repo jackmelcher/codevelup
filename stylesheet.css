@@ -31,6 +31,8 @@ p {
 .sectionlimited {
   flex-grow: 1;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 .sectionfixed {
   position: fixed;
@@ -93,7 +95,6 @@ a:hover {
   padding: 16px 16px;
   overflow-x: auto;
   background-color: #eeeeee;
-  z-index: -1;
 }
 .sidenavbutton {
   display: none;
@@ -184,6 +185,7 @@ a:hover {
 }
 .resource {
   margin-left: 120px;
+  flex-grow: 1;
 }
 .guide {
   margin-left: 25%;
