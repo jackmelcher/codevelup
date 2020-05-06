@@ -93,6 +93,7 @@ a:hover {
   padding: 16px 16px;
   overflow-x: auto;
   background-color: #eeeeee;
+  z-index: -1;
 }
 .sidenavbutton {
   display: none;
